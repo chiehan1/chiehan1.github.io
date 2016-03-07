@@ -1,6 +1,6 @@
-(function() {
+window.karmapa = function() {
 
-function signIn(googleUser) {
+signIn : function signIn(googleUser) {
     // Useful data for your client-side scripts:
   var profile = googleUser.getBasicProfile();
   console.log("ID: " + profile.getId()); // Don't send this directly to your server!
@@ -11,13 +11,13 @@ function signIn(googleUser) {
     // The ID token you need to pass to your backend:
   var idToken = googleUser.getAuthResponse()["id_token"];
   console.log("ID Token: " + idToken);
-}
+},
 
-function signOut() {
+signOut : function signOut() {
   var auth2 = gapi.auth2.getAuthInstance();
   auth2.signOut().then(function () {
       console.log('User signed out.');
   });
 }
 
-})();
+}();
