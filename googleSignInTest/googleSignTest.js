@@ -1,3 +1,5 @@
+(function() {
+
 function signIn(googleUser) {
     // Useful data for your client-side scripts:
   var profile = googleUser.getBasicProfile();
@@ -18,5 +20,4 @@ function signOut() {
   });
 }
 
-document.getElementById("goOut")
-  .addEventListener("click", signOut(), false);
+})();
