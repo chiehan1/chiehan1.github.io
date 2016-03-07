@@ -17,3 +17,6 @@ function signOut() {
       console.log('User signed out.');
   });
 }
+
+document.getElementById("goOut")
+  .addEventListener("click", signOut(), false);
