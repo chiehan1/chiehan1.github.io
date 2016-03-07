@@ -1,3 +1,4 @@
+function() {
 
     function signIn(googleUser) {
         // Useful data for your client-side scripts:
@@ -19,3 +20,4 @@
       });
     }
 
+}();
