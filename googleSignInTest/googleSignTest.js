@@ -1,5 +1,3 @@
-function() {
-
     function signIn(googleUser) {
         // Useful data for your client-side scripts:
       var profile = googleUser.getBasicProfile();
@@ -19,5 +17,3 @@ function() {
           console.log('User signed out.');
       });
     }
-
-}();
