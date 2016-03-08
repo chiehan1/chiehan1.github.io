@@ -52,4 +52,4 @@ http://xahlee.info/js/js_executing_order.html
 
 https://wiki.whatwg.org/wiki/Dynamic_Script_Execution_Order
 
-
+http://stackoverflow.com/questions/8996852/load-and-execute-order-of-scripts
