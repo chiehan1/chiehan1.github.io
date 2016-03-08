@@ -1,4 +1,4 @@
-function signIn(googleUser) {
+function signIn() {
     // Useful data for your client-side scripts:
   var googleUser = document.getElementById('signInDiv');
   var profile = googleUser.getBasicProfile();
