@@ -57,3 +57,5 @@ http://stackoverflow.com/questions/8996852/load-and-execute-order-of-scripts
 **0.1 + 0.2 = 0.30000000000000004?**
 
 http://floating-point-gui.de/basic/
+
+http://squall.cs.ntou.edu.tw/cprog/Materials/FractionalNumber.html
