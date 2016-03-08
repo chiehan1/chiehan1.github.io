@@ -18,5 +18,8 @@ function signOut() {
   });
 }
 
+document.getElementById('signInDiv')
+  .addEventListener('click', signIn, false);
+
 document.getElementById('signOutLink')
   .addEventListener('click', signOut, false);
