@@ -1,21 +1,14 @@
-function onSuccess(googleUser) {
-  console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-}
+function signIn(googleUser) {
+    // Useful data for your client-side scripts:
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Don't send this directly to your server!
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail());
 
-function onFailure(error) {
-  console.log(error);
-}
-
-function renderButton() {
-  gapi.signInDiv.render('my-signin2', {
-    'scope': 'profile email',
-    'width': 240,
-    'height': 50,
-    'longtitle': true,
-    'theme': 'dark',
-    'onsuccess': onSuccess,
-    'onfailure': onFailure
-  });
+    // The ID token you need to pass to your backend:
+  var idToken = googleUser.getAuthResponse()['id_token'];
+  console.log('ID Token: ' + idToken);
 }
 
 function signOut() {
