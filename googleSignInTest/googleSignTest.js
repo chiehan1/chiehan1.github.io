@@ -1,6 +1,7 @@
 function signIn() {
     // Useful data for your client-side scripts:
-  var googleUser = document.getElementById('signInDiv');
+  var googleUser = document.getElementById('signInDiv')
+                    .getAttribute('data-onsuccess');
   var profile = googleUser.getBasicProfile();
   console.log('ID: ' + profile.getId()); // Don't send this directly to your server!
   console.log('Name: ' + profile.getName());
