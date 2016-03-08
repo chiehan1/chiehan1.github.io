@@ -11,7 +11,7 @@ function signIn(googleUser) {
   console.log('ID Token: ' + idToken);
 }
 
-
+(function() {
 
 function signOut() {
   var auth2 = gapi.auth2.getAuthInstance();
@@ -23,3 +23,4 @@ function signOut() {
 //document.getElementById('signOutLink')
 //  .addEventListener('click', signOut, false);
 
+})();
