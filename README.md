@@ -39,3 +39,17 @@ http://stackoverflow.com/questions/2421911/what-is-the-purpose-of-wrapping-whole
 沒有 block scope，但有 function scope
 
 http://www.programmerinterview.com/index.php/javascript/javascript-block-scope/
+
+**External scripts execution order**
+
+https://html.spec.whatwg.org/multipage/scripting.html#script (WHATWG html standard)
+
+http://caniuse.com/#
+
+http://www.html5rocks.com/en/tutorials/speed/script-loading/
+
+http://xahlee.info/js/js_executing_order.html
+
+https://wiki.whatwg.org/wiki/Dynamic_Script_Execution_Order
+
+
