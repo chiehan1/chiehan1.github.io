@@ -54,8 +54,16 @@ https://wiki.whatwg.org/wiki/Dynamic_Script_Execution_Order
 
 http://stackoverflow.com/questions/8996852/load-and-execute-order-of-scripts
 
+http://scar.tw/article/2014/05/09/html-javascript-load-problem/ (difer async 簡易中文解說)
+
+http://peter.sh/experiments/asynchronous-and-deferred-javascript-execution-explained/
+
 **0.1 + 0.2 = 0.30000000000000004?**
 
 http://floating-point-gui.de/basic/
 
 http://squall.cs.ntou.edu.tw/cprog/Materials/FractionalNumber.html
+
+**Meta Tag**
+
+http://www.wibibi.com/info.php?tid=415
