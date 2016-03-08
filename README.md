@@ -33,3 +33,9 @@ If it is in others code, use braket ['underscore_variable'], don't use dot (.und
 如果沒有用 webpack，要用 closure 包起來
 
 http://stackoverflow.com/questions/2421911/what-is-the-purpose-of-wrapping-whole-javascript-files-in-anonymous-functions-li
+
+**Javascript Block Scope**
+
+沒有 block scope，但有 function scope
+
+http://www.programmerinterview.com/index.php/javascript/javascript-block-scope/
