@@ -1,4 +1,4 @@
-window.karmapa = {
+/*window.karmapa = {
 
   signIn: function(googleUser) {
     // Useful data for your client-side scripts:
@@ -13,9 +13,9 @@ window.karmapa = {
   console.log('ID Token: ' + idToken);
   }
 
-};
+};*/
 
-/*function signIn(googleUser) {
+function signIn(googleUser) {
     // Useful data for your client-side scripts:
   var profile = googleUser.getBasicProfile();
   console.log('ID: ' + profile.getId()); // Don't send this directly to your server!
@@ -26,7 +26,7 @@ window.karmapa = {
     // The ID token you need to pass to your backend:
   var idToken = googleUser.getAuthResponse()['id_token'];
   console.log('ID Token: ' + idToken);
-}*/
+}
 
 (function() {
 
