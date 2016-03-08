@@ -20,7 +20,7 @@ function signOut() {
   });
 }
 
-//document.getElementById('signOutLink')
-//  .addEventListener('click', signOut, false);
+document.getElementById('signOutLink')
+  .addEventListener('click', signOut, false);
 
 })();
